@@ -1,0 +1,2406 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Satisfy&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:beige;
+  font-family: "Play", sans-serif;
+}
+
+/* Home Page */
+.HomePage{
+  height: 100%;
+  width: 50vw;
+  box-shadow: 2px 2px 6px 6px black;
+}
+
+
+/*Intro Container*/
+.Intro-Container{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.Intro-Page{
+  width: 100%;
+
+}
+.Intro-Page .BR_GR img{
+  height:650px;
+  width: 100%;
+}
+.Mask{
+  margin-top: -700px;
+  height: 85vh;
+ width: 100%;
+  background-color: black;
+  opacity: 0.1;
+}
+.Details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -300px;
+  gap: 30px;
+}
+.Details .Title h2{
+   color: #ffcc00;
+   font-size: 35px;
+   font-family: "Josefin Sans", sans-serif;
+}
+.Details .Name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.Details .Name p{
+  font-size: 40px;
+  font-weight: 900;
+  color: aliceblue;
+  
+}
+
+.Audio {
+  margin-top: -10px;
+}
+
+/* Audio */
+.Wave-Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.Wave-Player{
+  height: 100%;
+  width: 100%;
+}
+.Wave-button{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border:  2px solid #B07C0B ;
+  border-radius: 10px;
+}
+.button{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ffcc00;
+  color: #B07C0B;
+  border: 2px solid #B07C0B ;
+}
+
+/* Bride Container */
+.Bride-Container{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.Bride-Container h2{
+  font-size: 40px;
+  color: #B07C0B;
+}
+.Bride-Page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Satisfy", cursive;
+
+}
+.Bride-Page h2{
+  font-size: 25px;
+  
+}
+.Bride-Page img{
+  height: 400px;
+  width: 400px;
+  border-radius: 300px;
+}
+.Bride-Page p{
+  margin-top: -360px;
+  width: 40%;
+  font-family: "Oswald", sans-serif;
+  padding: 30px;
+}
+
+.Frame1  img{
+  margin-top: -150px;
+  height:500px;
+  width: 600px;
+}
+
+
+/* GALLERY CONTAINER */
+.Gallery-container{
+  height: 100vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.Gallery-container  h2{
+  font-size: 30px;
+}
+.Frame{
+  margin-top: 30px;
+}
+.Gallery-container img{
+  margin-top: -45px;
+  height: 100px;
+  width: 200px;
+}
+.images {
+  margin-top: 50px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+   -webkit-column-width:10% ;
+   -moz-column-width: 3%;
+  column-width: 3%;
+  padding: 0 22px;
+}
+.pics{
+  height: 180px;
+  margin-bottom: 10px;
+}
+.pics img{
+  height: 180px;
+  width: 150px;
+}
+.pics img:hover{
+  transform: scale(1.02)
+}
+
+/* Video Container */
+.videos-Container{
+  margin-top: 30px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.videos-Container h3{ 
+  font-size: 30px;
+
+}
+.Video{
+  height: 300px;
+  width: 400px;
+  border: 2px solid #B07C0B;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+/* .Video iframe{
+  margin-top: 30px;
+  height: 35vh;
+  width: 35vw;
+} */
+.videos-Container img{
+  margin-top: -45px;
+  height: 100px;
+  width: 250px;
+}
+
+/* Details Page */
+.Details-Container{
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Details-Container h2{
+  font-size: 30px;
+}
+.Details-Container img{
+  margin-top: -20px;
+  height: 100px;
+  width: 250px;
+}
+.Details-Page{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.Details-Page p{
+  font-size: 28px;
+  font-family: "Satisfy", cursive;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Satisfy", cursive;
+ }
+ .content2 p{
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+ }
+ 
+ .content3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   font-family: "Satisfy", cursive;
+ }
+ .content3 h3{
+   font-size: 28px;
+   font-family: "Satisfy", cursive;
+   font-weight: 400px;
+ }
+ .content3 p{
+   font-family: "Satisfy", cursive;
+   font-size: 20px;
+ }
+ .Venue{
+  font-family: "Satisfy", cursive;
+  
+ }
+ .Venue h3{
+  font-family: "Satisfy", cursive;
+ }
+ .Date_Place{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Satisfy", cursive;
+  font-size: 18px;
+ }
+ 
+ /* venue */
+ .Venue {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+ }
+ .Venue h3{
+   font-size: 28px;
+   font-family: "Play", sans-serif;
+   font-weight: 400px;
+ }
+ .Venue p{
+   font-size: 20px;
+   font-family: "Satisfy", cursive;
+ }
+ .borderline img{
+   margin-top: -80px;
+   height: 20px;
+   width: 200px;
+ }
+ 
+
+ 
+/* Location */
+.Location_Container{
+  margin-top: 60px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.Location_Container h4{
+  font-size: 25px;
+  font-family: "Play", sans-serif;
+}
+.Location_Container img{
+  margin-top: -20px;
+  height: 100px;
+  width: 200px;
+}
+.Location{
+  margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: 5px solid #B07C0B;
+ border-radius: 5px;
+}
+.Location iframe{
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+}
+.Button{
+  height: 50px;
+  width: 510px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.Button a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* Contacts */
+
+.wish{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height:30px;
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+
+}
+
+.social_Share{
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+font-size: 20px;
+color: black;
+
+}
+.network{
+  margin-top: 10px;
+  display: flex;
+
+}
+.network img{
+  height: 34px;
+}
+.network .whatsapp img{
+  margin-top: -2px;
+  height: 37px;
+}
+
+.details_1{
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 250px;
+  padding: 20px;
+}
+.details_1 .p1{
+  margin-top: 110px;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+}
+.details_1 p{
+  font-size: 18px;
+}
+.details_1 a{
+  height: 20px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+.details_1 a:hover{
+background: rgb(93, 5, 5);
+color: wheat;
+
+}
+
+
+
+/* Responsive screen sizes */
+
+/* Screen upto 380px */
+
+@media screen and (max-width : 360px){
+ 
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:beige;
+    font-family: "Play", sans-serif;
+  }
+  
+  /* Home Page */
+  .HomePage{
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 6px 6px black;
+    overflow: hidden;
+  }
+  
+  
+  /*Intro Container*/
+  .Intro-Container{
+     height: 100vh;
+     width: 100%;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+  }
+  .Intro-Page{
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  .Intro-Page .BR_GR img{
+    height:650px;
+    width: 100%;
+  }
+  .Mask{
+    margin-top: -500px;
+    height: 100vh;
+   width: 100%;
+   
+  }
+  .Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -300px;
+    gap: 30px;
+  }
+  .Details .Title h2{
+     color: #ffcc00;
+     font-size: 35px;
+     font-family: "Josefin Sans", sans-serif;
+  }
+  .Details .Name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+  .Details .Name p{
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
+    
+  }
+  
+  .Audio {
+    margin-top: -10px;
+  }
+  
+  /* Audio */
+  .Wave-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .Wave-Player{
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  .Wave-button{
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:  2px solid #B07C0B ;
+    border-radius: 10px;
+  }
+  .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #ffcc00;
+    color: #B07C0B;
+    border: 2px solid #B07C0B ;
+  }
+  
+  /* Bride Container */
+  .Bride-Container{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .Bride-Container h2{
+    font-size: 25px;
+    color: #B07C0B;
+  }
+  .Bride-Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Satisfy", cursive;
+  
+  }
+  .Bride-Page h2{
+    font-size: 25px;
+    
+  }
+  .Bride-Page img{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+  }
+  .Bride-Page p{
+    margin-top: -249px;
+    width: 50%;
+    font-family: "Oswald", sans-serif;
+    padding: 15px;
+    font-size: 11px;
+  }
+  
+  .Frame1  img{
+    margin-top: -100px;
+    height:330px;
+    width: 420px;
+  }
+  
+  
+  /* GALLERY CONTAINER */
+  .Gallery-container{
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .Gallery-container  h2{
+    font-size: 25px;
+  }
+  .Frame{
+    margin-top: 30px;
+  }
+  .Gallery-container img{
+    margin-top: -45px;
+    height: 80px;
+    width: 180px;
+  }
+  .images {
+    margin-top: 50px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+     -webkit-column-width:10% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 10px;
+  }
+  .pics{
+    height: 120px;;
+  }
+  .pics img{
+    height: 120px;
+    width: 100px;
+  }
+  .pics img:hover{
+    transform: scale(1.02)
+  }
+  
+  /* Video Container */
+  .videos-Container{
+    margin-top: 30px;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .videos-Container h3{ 
+    font-size: 25px;
+  
+  }
+  .Video{
+    height: 450px;
+    width: 350px;
+    border: 2px solid #B07C0B;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  /* .Video iframe{
+    margin-top: 30px;
+    height: 35vh;
+    width: 35vw;
+  } */
+  .videos-Container img{
+    margin-top: -45px;
+    height: 120px;
+    width: 180px;
+  }
+  
+  /* Details Page */
+  .Details-Container{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Details-Container h2{
+    font-size: 25px;
+  }
+  .Details-Container img{
+    margin-top: -20px;
+    height: 70px;
+    width: 180px;
+  }
+  .Details-Page{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .Details-Page p{
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Satisfy", cursive;
+   }
+   .content2 p{
+    font-family: "Satisfy", cursive;
+    font-size: 18px;
+   }
+   
+   .content3{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     font-family: "Satisfy", cursive;
+   }
+   .content3 h3{
+     font-size: 24px;
+     font-family: "Satisfy", cursive;
+     font-weight: 400px;
+   }
+   .content3 p{
+     font-family: "Satisfy", cursive;
+     font-size: 18px;
+   }
+   .Venue{
+    font-family: "Satisfy", cursive;
+    
+   }
+   .Venue h3{
+    font-family: "Satisfy", cursive;
+   }
+   .Date_Place{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Satisfy", cursive;
+    font-size: 18px;
+   }
+   
+   /* venue */
+   .Venue {
+     margin-top: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+   }
+   .Venue h3{
+     font-size: 24px;
+     font-family: "Play", sans-serif;
+     font-weight: 400px;
+   }
+   .Venue p{
+     font-size:18px;
+     font-family: "Satisfy", cursive;
+   }
+   .borderline img{
+     margin-top: -80px;
+     height: 20px;
+     width: 200px;
+   }
+   
+  
+   
+  /* Location */
+  .Location_Container{
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .Location_Container h4{
+    font-size: 23px;
+    font-family: "Play", sans-serif;
+  }
+  .Location_Container img{
+    margin-top: -20px;
+    height: 70px;
+    width: 180px;
+  }
+  .Location{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid #B07C0B;
+   border-radius: 5px;
+  }
+  .Location iframe{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  .Button{
+    height: 50px;
+    width: 310px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .Button a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Contacts */
+  
+  .wish{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height:30px;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  font-size: 18px;
+  color: black;
+  
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 30px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 34px;
+  }
+  
+  .details_1{
+    width: 100%;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0px;
+    margin-left: 100px;
+    padding: 20px;
+  }
+  .details_1 .p1{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 p{
+    font-size: 12px;
+  }
+  .details_1 a{
+    height: 10px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  
+  }
+  
+  }
+
+
+/* Screen upto 380px */
+
+@media (min-width : 360px) and (max-width : 380px){
+ 
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:beige;
+  font-family: "Play", sans-serif;
+}
+
+/* Home Page */
+.HomePage{
+  height: 100%;
+  width: 100%;
+  box-shadow: 2px 2px 6px 6px black;
+  overflow: hidden;
+}
+
+
+/*Intro Container*/
+.Intro-Container{
+   height: 100vh;
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+}
+.Intro-Page{
+  width: 100%;
+  overflow: hidden;
+
+}
+.Intro-Page .BR_GR img{
+  height:650px;
+  width: 100%;
+}
+.Mask{
+  margin-top: -700px;
+  height: 85vh;
+ width: 100%;
+  background-color: black;
+  opacity: 0.1;
+}
+.Details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -300px;
+  gap: 30px;
+}
+.Details .Title h2{
+   color: #ffcc00;
+   font-size: 35px;
+   font-family: "Josefin Sans", sans-serif;
+}
+.Details .Name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.Details .Name p{
+  font-size: 40px;
+  font-weight: 900;
+  color: aliceblue;
+  
+}
+
+.Audio {
+  margin-top: -10px;
+}
+
+/* Audio */
+.Wave-Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.Wave-Player{
+  height: 100%;
+  width: 100%;
+}
+.Wave-button{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border:  2px solid #B07C0B ;
+  border-radius: 10px;
+}
+.button{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ffcc00;
+  color: #B07C0B;
+  border: 2px solid #B07C0B ;
+}
+
+/* Bride Container */
+.Bride-Container{
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.Bride-Container h2{
+  font-size: 25px;
+  color: #B07C0B;
+}
+.Bride-Page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Satisfy", cursive;
+
+}
+.Bride-Page h2{
+  font-size: 25px;
+  
+}
+.Bride-Page img{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+}
+.Bride-Page p{
+  margin-top: -249px;
+  width: 50%;
+  font-family: "Oswald", sans-serif;
+  padding: 15px;
+  font-size: 11px;
+}
+
+.Frame1  img{
+  margin-top: -100px;
+  height:330px;
+  width: 420px;
+}
+
+
+/* GALLERY CONTAINER */
+.Gallery-container{
+  height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.Gallery-container  h2{
+  font-size: 25px;
+}
+.Frame{
+  margin-top: 30px;
+}
+.Gallery-container img{
+  margin-top: -45px;
+  height: 80px;
+  width: 180px;
+}
+.images {
+  margin-top: 50px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+   -webkit-column-width:10% ;
+   -moz-column-width: 13%;
+  column-width: 13%;
+  padding: 0 10px;
+}
+.pics{
+  height: 120px;;
+}
+.pics img{
+  height: 120px;
+  width: 100px;
+}
+.pics img:hover{
+  transform: scale(1.02)
+}
+
+/* Video Container */
+.videos-Container{
+  margin-top: 30px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.videos-Container h3{ 
+  font-size: 25px;
+
+}
+.Video{
+  height: 450px;
+  width: 350px;
+  border: 2px solid #B07C0B;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+/* .Video iframe{
+  margin-top: 30px;
+  height: 35vh;
+  width: 35vw;
+} */
+.videos-Container img{
+  margin-top: -45px;
+  height: 120px;
+  width: 180px;
+}
+
+/* Details Page */
+.Details-Container{
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Details-Container h2{
+  font-size: 25px;
+}
+.Details-Container img{
+  margin-top: -20px;
+  height: 70px;
+  width: 180px;
+}
+.Details-Page{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.Details-Page p{
+  font-size: 24px;
+  font-family: "Satisfy", cursive;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Satisfy", cursive;
+ }
+ .content2 p{
+  font-family: "Satisfy", cursive;
+  font-size: 18px;
+ }
+ 
+ .content3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   font-family: "Satisfy", cursive;
+ }
+ .content3 h3{
+   font-size: 24px;
+   font-family: "Satisfy", cursive;
+   font-weight: 400px;
+ }
+ .content3 p{
+   font-family: "Satisfy", cursive;
+   font-size: 18px;
+ }
+ .Venue{
+  font-family: "Satisfy", cursive;
+  
+ }
+ .Venue h3{
+  font-family: "Satisfy", cursive;
+ }
+ .Date_Place{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Satisfy", cursive;
+  font-size: 18px;
+ }
+ 
+ /* venue */
+ .Venue {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+ }
+ .Venue h3{
+   font-size: 24px;
+   font-family: "Play", sans-serif;
+   font-weight: 400px;
+ }
+ .Venue p{
+   font-size:18px;
+   font-family: "Satisfy", cursive;
+ }
+ .borderline img{
+   margin-top: -80px;
+   height: 20px;
+   width: 200px;
+ }
+ 
+
+ 
+/* Location */
+.Location_Container{
+  margin-top: 60px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.Location_Container h4{
+  font-size: 23px;
+  font-family: "Play", sans-serif;
+}
+.Location_Container img{
+  margin-top: -20px;
+  height: 70px;
+  width: 180px;
+}
+.Location{
+  margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: 5px solid #B07C0B;
+ border-radius: 5px;
+}
+.Location iframe{
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+.Button{
+  height: 50px;
+  width: 310px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.Button a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* Contacts */
+
+.wish{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height:30px;
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+
+}
+
+.social_Share{
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+font-size: 18px;
+color: black;
+
+}
+.network{
+  margin-top: 10px;
+  display: flex;
+
+}
+.network img{
+  height: 30px;
+}
+.network .whatsapp img{
+  margin-top: -2px;
+  height: 34px;
+}
+
+.details_1{
+  width: 100%;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 0px;
+  margin-left: 100px;
+  padding: 20px;
+}
+.details_1 .p1{
+  margin-top: 110px;
+  font-size: 20px;
+  font-family: "Satisfy", cursive;
+}
+.details_1 p{
+  font-size: 12px;
+}
+.details_1 a{
+  height: 10px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+  text-decoration: none;
+  
+}
+.details_1 a:hover{
+background: rgb(93, 5, 5);
+color: wheat;
+
+}
+
+}
+
+
+/* Screen upto 380px to 400px */
+
+@media screen and (min-width : 380px) and (max-width:400px){
+ 
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:beige;
+    font-family: "Play", sans-serif;
+  }
+  
+  /* Home Page */
+  .HomePage{
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 6px 6px black;
+    overflow: hidden;
+  }
+  
+  
+  /*Intro Container*/
+  .Intro-Container{
+     height: 100vh;
+     width: 100%;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+  }
+  .Intro-Page{
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  .Intro-Page .BR_GR img{
+    height:650px;
+    width: 100%;
+  }
+  .Mask{
+    margin-top: -700px;
+    height: 82.5vh;
+   width: 100%;
+    background-color: black;
+    opacity: 0.1;
+  }
+  .Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -300px;
+    gap: 30px;
+  }
+  .Details .Title h2{
+     margin-top: -100px;
+     color: #ffcc00;
+     font-size: 35px;
+     font-family: "Josefin Sans", sans-serif;
+  }
+  .Details .Name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+  .Details .Name p{
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
+    
+  }
+  
+  .Audio {
+    margin-top: -10px;
+  }
+  
+  /* Audio */
+  .Wave-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .Wave-Player{
+    height: 100%;
+    width: 100%;
+  }
+  .Wave-button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:  2px solid #B07C0B ;
+    border-radius: 10px;
+  }
+  .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #ffcc00;
+    color: #B07C0B;
+    border: 2px solid #B07C0B ;
+  }
+  
+  /* Bride Container */
+  .Bride-Container{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .Bride-Container h2{
+    font-size: 25px;
+    color: #B07C0B;
+  }
+  .Bride-Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Satisfy", cursive;
+  
+  }
+  .Bride-Page h2{
+    font-size: 25px;
+    
+  }
+  .Bride-Page img{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+  }
+  .Bride-Page p{
+    margin-top: -249px;
+    width: 50%;
+    font-family: "Oswald", sans-serif;
+    padding: 15px;
+    font-size: 11px;
+  }
+  
+  .Frame1  img{
+    margin-top: -100px;
+    height:330px;
+    width: 420px;
+  }
+  
+  
+  /* GALLERY CONTAINER */
+  .Gallery-container{
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .Gallery-container  h2{
+    font-size: 25px;
+  }
+  .Frame{
+    margin-top: 30px;
+  }
+  .Gallery-container img{
+    margin-top: -45px;
+    height: 80px;
+    width: 180px;
+  }
+  .images {
+    margin-top: 50px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+     -webkit-column-width:10% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 10px;
+  }
+  .pics{
+    height: 120px;;
+  }
+  .pics img{
+    height: 120px;
+    width: 100px;
+  }
+  .pics img:hover{
+    transform: scale(1.02)
+  }
+  
+  /* Video Container */
+  .videos-Container{
+    margin-top: 30px;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .videos-Container h3{ 
+    font-size: 25px;
+  
+  }
+  .Video{
+    height: 450px;
+    width: 350px;
+    border: 2px solid #B07C0B;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  /* .Video iframe{
+    margin-top: 30px;
+    height: 35vh;
+    width: 35vw;
+  } */
+  .videos-Container img{
+    margin-top: -45px;
+    height: 120px;
+    width: 180px;
+  }
+  
+  /* Details Page */
+  .Details-Container{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Details-Container h2{
+    font-size: 25px;
+  }
+  .Details-Container img{
+    margin-top: -20px;
+    height: 70px;
+    width: 180px;
+  }
+  .Details-Page{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .Details-Page p{
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Satisfy", cursive;
+   }
+   .content2 p{
+    font-family: "Satisfy", cursive;
+    font-size: 18px;
+   }
+   
+   .content3{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     font-family: "Satisfy", cursive;
+   }
+   .content3 h3{
+     font-size: 24px;
+     font-family: "Satisfy", cursive;
+     font-weight: 400px;
+   }
+   .content3 p{
+     font-family: "Satisfy", cursive;
+     font-size: 18px;
+   }
+   .Venue{
+    font-family: "Satisfy", cursive;
+    
+   }
+   .Venue h3{
+    font-family: "Satisfy", cursive;
+   }
+   .Date_Place{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Satisfy", cursive;
+    font-size: 18px;
+   }
+   
+   /* venue */
+   .Venue {
+     margin-top: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+   }
+   .Venue h3{
+     font-size: 24px;
+     font-family: "Play", sans-serif;
+     font-weight: 400px;
+   }
+   .Venue p{
+     font-size:18px;
+     font-family: "Satisfy", cursive;
+   }
+   .borderline img{
+     margin-top: -80px;
+     height: 20px;
+     width: 200px;
+   }
+   
+  
+   
+  /* Location */
+  .Location_Container{
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .Location_Container h4{
+    font-size: 23px;
+    font-family: "Play", sans-serif;
+  }
+  .Location_Container img{
+    margin-top: -20px;
+    height: 70px;
+    width: 180px;
+  }
+  .Location{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid #B07C0B;
+   border-radius: 5px;
+  }
+  .Location iframe{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  .Button{
+    height: 50px;
+    width: 310px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .Button a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Contacts */
+  
+  .wish{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height:30px;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  font-size: 18px;
+  color: black;
+  
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 30px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 34px;
+  }
+  
+  .details_1{
+    width: 100%;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0px;
+    margin-left: 100px;
+    padding: 20px;
+  }
+  .details_1 .p1{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 p{
+    font-size: 12px;
+  }
+  .details_1 a{
+    height: 10px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  
+  }
+  
+  }
+
+
+/* Screen upto 400px to 768px */
+
+@media screen and (min-width : 400px) and (max-width:768px){
+ 
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:beige;
+    font-family: "Play", sans-serif;
+  }
+  
+  /* Home Page */
+  .HomePage{
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 6px 6px black;
+    overflow: hidden;
+  }
+  
+  
+  /*Intro Container*/
+  .Intro-Container{
+     height: 100vh;
+     width: 100%;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+  }
+  .Intro-Page{
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  .Intro-Page .BR_GR img{
+    height:650px;
+    width: 100%;
+  }
+  .Mask{
+    margin-top: -700px;
+    height: 76vh;
+   width: 100%;
+    background-color: black;
+    opacity: 0;
+  }
+  .Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -300px;
+    gap: 30px;
+  }
+  .Details .Title h2{
+     margin-top: -100px;
+     color: #ffcc00;
+     font-size: 35px;
+     font-family: "Josefin Sans", sans-serif;
+  }
+  .Details .Name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+  .Details .Name p{
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
+    
+  }
+  
+  .Audio {
+    margin-top: -10px;
+  }
+  
+  /* Audio */
+  .Wave-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .Wave-Player{
+    height: 100%;
+    width: 100%;
+  }
+  .Wave-button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:  2px solid #B07C0B ;
+    border-radius: 10px;
+  }
+  .button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #ffcc00;
+    color: #B07C0B;
+    border: 2px solid #B07C0B ;
+  }
+  
+  /* Bride Container */
+  .Bride-Container{
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .Bride-Container h2{
+    font-size: 25px;
+    color: #B07C0B;
+  }
+  .Bride-Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Satisfy", cursive;
+  
+  }
+  .Bride-Page h2{
+    font-size: 25px;
+    
+  }
+  .Bride-Page img{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+  }
+  .Bride-Page p{
+    margin-top: -249px;
+    width: 50%;
+    font-family: "Oswald", sans-serif;
+    padding: 15px;
+    font-size: 11px;
+  }
+  
+  .Frame1  img{
+    margin-top: -100px;
+    height:330px;
+    width: 420px;
+  }
+  
+  
+  /* GALLERY CONTAINER */
+  .Gallery-container{
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .Gallery-container  h2{
+    font-size: 25px;
+  }
+  .Frame{
+    margin-top: 30px;
+  }
+  .Gallery-container img{
+    margin-top: -45px;
+    height: 80px;
+    width: 180px;
+  }
+  .images {
+    margin-top: 50px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+     -webkit-column-width:10% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 10px;
+  }
+  .pics{
+    height: 120px;;
+  }
+  .pics img{
+    height: 120px;
+    width: 100px;
+  }
+  .pics img:hover{
+    transform: scale(1.02)
+  }
+  
+  /* Video Container */
+  .videos-Container{
+    margin-top: 30px;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .videos-Container h3{ 
+    font-size: 25px;
+  
+  }
+  .Video{
+    height: 450px;
+    width: 350px;
+    border: 2px solid #B07C0B;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  /* .Video iframe{
+    margin-top: 30px;
+    height: 35vh;
+    width: 35vw;
+  } */
+  .videos-Container img{
+    margin-top: -45px;
+    height: 120px;
+    width: 180px;
+  }
+  
+  /* Details Page */
+  .Details-Container{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Details-Container h2{
+    font-size: 25px;
+  }
+  .Details-Container img{
+    margin-top: -20px;
+    height: 70px;
+    width: 180px;
+  }
+  .Details-Page{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .Details-Page p{
+    font-size: 24px;
+    font-family: "Satisfy", cursive;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Satisfy", cursive;
+   }
+   .content2 p{
+    font-family: "Satisfy", cursive;
+    font-size: 18px;
+   }
+   
+   .content3{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     font-family: "Satisfy", cursive;
+   }
+   .content3 h3{
+     font-size: 24px;
+     font-family: "Satisfy", cursive;
+     font-weight: 400px;
+   }
+   .content3 p{
+     font-family: "Satisfy", cursive;
+     font-size: 18px;
+   }
+   .Venue{
+    font-family: "Satisfy", cursive;
+    
+   }
+   .Venue h3{
+    font-family: "Satisfy", cursive;
+   }
+   .Date_Place{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Satisfy", cursive;
+    font-size: 18px;
+   }
+   
+   /* venue */
+   .Venue {
+     margin-top: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+   }
+   .Venue h3{
+     font-size: 24px;
+     font-family: "Play", sans-serif;
+     font-weight: 400px;
+   }
+   .Venue p{
+     font-size:18px;
+     font-family: "Satisfy", cursive;
+   }
+   .borderline img{
+     margin-top: -80px;
+     height: 20px;
+     width: 200px;
+   }
+   
+  
+   
+  /* Location */
+  .Location_Container{
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .Location_Container h4{
+    font-size: 23px;
+    font-family: "Play", sans-serif;
+  }
+  .Location_Container img{
+    margin-top: -20px;
+    height: 70px;
+    width: 180px;
+  }
+  .Location{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid #B07C0B;
+   border-radius: 5px;
+  }
+  .Location iframe{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  .Button{
+    height: 50px;
+    width: 310px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .Button a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Contacts */
+  
+  .wish{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height:30px;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  font-size: 18px;
+  color: black;
+  
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 30px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 34px;
+  }
+  
+  .details_1{
+    width: 100%;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0px;
+    margin-left: 100px;
+    padding: 20px;
+  }
+  .details_1 .p1{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 p{
+    font-size: 12px;
+  }
+  .details_1 a{
+    height: 10px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  
+  }
+  
+  }
