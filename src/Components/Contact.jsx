@@ -26,7 +26,7 @@ const Contact = () => {
                 <img src="" alt="" />
                 <p className='p1'>InviteDigitly Online</p>
                 <p>Do you like to invite people through digital</p>
-                <a href="https://web.telegram.org/a/#1251275106">
+                <a href="https://invite-digitly-web.vercel.app/">
                 click Here
                 </a>
             </div>
