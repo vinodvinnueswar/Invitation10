@@ -183,15 +183,9 @@ body{
   height: 100px;
   width: 200px;
 }
-.images {
-  margin-top: 50px;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
+.lg-react-element {
   column-count: 3;
-   -webkit-column-width:10% ;
-   -moz-column-width: 3%;
-  column-width: 3%;
-  padding: 0 22px;
+  column-gap: 10px;
 }
 .pics{
   height: 180px;
@@ -200,6 +194,8 @@ body{
 .pics img{
   height: 180px;
   width: 150px;
+  border: 2px solid #B07C0B;
+  border-radius: 5px;
 }
 .pics img:hover{
   transform: scale(1.02)

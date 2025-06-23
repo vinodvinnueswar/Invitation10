@@ -10,6 +10,12 @@ import img8 from '../Images/BR_GR/Rn_Ali8.png'
 import img9 from '../Images/BR_GR/Rn_Ali9.png'
 import Border4 from '../Images/Border/Border4.png'
 
+
+
+
+
+
+
 const Gallery = () => {
     let data =[
         {
