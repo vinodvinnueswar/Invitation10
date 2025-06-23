@@ -10,14 +10,30 @@ import img8 from '../Images/BR_GR/Rn_Ali8.png'
 import img9 from '../Images/BR_GR/Rn_Ali9.png'
 import Border4 from '../Images/Border/Border4.png'
 
+import LightGallery from 'lightgallery/react';
+
+
+// import styles
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
+import 'lightgallery/css/lg-autoplay.css';
+import 'lightgallery/css/lg-fullscreen.css';
+import 'lightgallery/css/lg-share.css';
+import 'lightgallery/css/lg-rotate.css';
+
+
+// import plugins if you need
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
+import lgAutoplay from 'lightgallery/plugins/autoplay'
+import lgFullscreen from 'lightgallery/plugins/fullscreen';
+import lgShare from 'lightgallery/plugins/share';
+import lgRotate from 'lightgallery/plugins/rotate';
 
 
 
-
-
-
-const Gallery = () => {
-    let data =[
+    const data =[
         {
             imgsrc:img1
         },
@@ -48,13 +64,10 @@ const Gallery = () => {
     ]
   
 
-    const [model , setModel] =useState(false);
-    const [tempImgSrc, setTempImgSrc] = useState('')
-    const getImg = (imgSrc) =>{
-        setModel(true)
-        setTempImgSrc(imgSrc)
-        console.warn(imgSrc)
-    }
+    export function Gallery() {
+        const onInit = () => {
+            console.log('lightGallery has been initialized');
+        };
 
   return (
     <div className="Gallery-container" data-aos="fade-up"
@@ -66,15 +79,26 @@ const Gallery = () => {
             <img src={Border4} alt="" />
         <div className="images" data-aos="fade-up"
      data-aos-duration="3000" >
-         {
-            data.map((item)=>{
+      <LightGallery
+                onInit={onInit}
+                speed={500}
+                plugins={[lgThumbnail, lgZoom, lgAutoplay, lgFullscreen, lgRotate, lgShare]}
+            >
+
+          {
+            data.map((item , index)=>{
                 return(
-                    <div className="pics" onClick={() =>getImg(item.imgsrc)}>
-                        <img src={item.imgsrc}  />
-                    </div>
+                    <a className ='pics' href={item.imgsrc} key={index}>
+                    <img src={item.imgsrc}  />
+                   </a>
+                
                 )
             })
          }
+
+            </LightGallery>
+
+         
         </div>
     </div>
   )

@@ -119,7 +119,6 @@ body{
 .Bride-Container{
   height: 100%;
   width: 100%;
-  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,10 +160,10 @@ body{
   width: 600px;
 }
 
-
 /* GALLERY CONTAINER */
 .Gallery-container{
   height: 100vh;
+  width: 100%;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -183,19 +182,21 @@ body{
   height: 100px;
   width: 200px;
 }
-.lg-react-element {
-  column-count: 3;
-  column-gap: 10px;
-}
-.pics{
-  height: 180px;
+/* .pics{
+  height: 100%;
   margin-bottom: 10px;
+} */
+
+.images{
+  width: 80%;
+
 }
 .pics img{
-  height: 180px;
+  height: 100px;
   width: 150px;
   border: 2px solid #B07C0B;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 .pics img:hover{
   transform: scale(1.02)
