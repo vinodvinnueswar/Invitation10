@@ -5,6 +5,7 @@ import Instagram from '../Images/Social_network/Instagram.png'
 import whatsapp from '../Images/Social_network/Whatsapp1.png'
 import Share from './Share'
 
+
 const Contact = () => {
     
     
@@ -18,6 +19,7 @@ const Contact = () => {
 
                 <div className="center">
                 <Share/>
+
                 </div>
            {/* <div className="network">
            <div className="facebook">
